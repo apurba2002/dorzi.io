@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+}
+.header{
+    background-image: linear-gradient(to right , orange , red);
+    width: 100%;
+    height: 170px;
+    display: flex;
+    
+}
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+.nav ul li {
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+    font-size: x-large;
+    color: antiquewhite;
+    
+   
+   
+}
+.nav ul li:hover{
+    background-color: black;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.menu{
+    background-image: linear-gradient(to right , orange , red);
+    width: 100%;
+    height: 70px;
+}
+.account{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.nav{
+    
+    margin-left: 0px;
+}
+.header .name .largetext{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.minitext{
+    font-size: medium;
+    
+}
+.loginform h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+
+}
+.loginform .user{
+    padding: 20px;
+
+    width: 550px;
+   
+    margin-bottom: 20px;
+    
+}
+.loginform .password{
+    padding: 20px;
+    
+    width: 550px;
+
+    margin-bottom: 20px;
+    
+}
+.loginform button{
+    padding: 20px;
+    background-color: rgb(115, 115, 243);
+    text-align: center;
+    width: 550px;
+   
+    
+    color: white;
+    margin-bottom: 20px;
+
+}
+.foot{
+    width: 100%;
+    height: 200px;
+}
+.loginform{
+    margin-top: 100px;
+}
+.search{
+    padding: 25px;
+    width: 423px;
+    margin-left: 220px;
+    opacity: 80%;
+}
+
+
+
+.searchbutton{
+    padding: 25px;
+    width: 170px;
+}
+.searchbutton:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+   
+
+
+
+
+

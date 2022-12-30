@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bd quiz</title>
+    <link rel="stylesheet" href="assets/css/loginstyle.css">
+  <style>
+    body{
+        background-color: white;
+        background-image: none;
+    }
+    .loginform h1{
+        color: black;
+    }
+    .loginform input{
+        background-color: bisque;
+    }
+  </style>
+       
+
+</head>
+<body>
+    <div class="up">
+        <div class="header"> 
+            <div class="logo">
+                <img src="assets/images/1x/Asset 1.png" alt="" srcset="" height="150px" width="150px">
+            </div>
+            <div class="name">
+                <p class="largetext">
+                   <u>Dorgi</u> 
+                </p>
+                <p class="minitext">
+              
+                </p>
+            </div>
+           
+            
+          
+    
+    
+        </div>
+        
+            <div class="menu">
+                <div class="nav">
+                           
+                    <ul>
+                        <li class="home" onclick="home()" >
+                            Home
+                            
+                        </li>
+                        <li class="product" onclick="product()" >
+                            Product
+                        </li>
+                        <li class="contract" onclick="contract()">
+                            Contract
+                        </li>
+                        <li class="account" onclick="account()">
+                            Account
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" class="search" id="search" onclick="" placeholder="Type items name or relateld keywords">
+            <button class="searchbutton">Search</button>
+            </div>
+            <center>
+                <div class="loginform ">
+                    <h1>
+                        Login
+                    </h1>
+                    <input type="text" class="user" placeholder="Username" id="user">
+                    <br>
+                    <input type="password" class="password" placeholder="Password" id="password">
+                    <br>
+                    <button>Login</button>
+                    <br>
+                    <button onclick="signup()" >Create new Account</button>
+                </div>
+            </center>
+      
+            <div class="foot">
+
+            </div>
+<script src="assets/js/main.js"></script> 
+
+</body>
+</html>
